@@ -514,7 +514,8 @@ block_colors = {'NONE': ['air'],
                 'CRIMSON_NYLIUM': ['crimson_nylium'],
                 'RAW_IRON': ['raw_iron_block']}
 
-sorted_colors = ['NONE','GRASS',
+sorted_colors = ['NONE',
+ 'GRASS',
  'SAND',
  'WOOL',
  'FIRE',
