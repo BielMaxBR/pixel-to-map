@@ -1,5 +1,6 @@
 
-block_colors = {'STONE':
+block_colors = {'NONE': ['air'],
+    'STONE':
                 ['stone',
                  'andesite',
                  'polished_andesite',
@@ -513,7 +514,7 @@ block_colors = {'STONE':
                 'CRIMSON_NYLIUM': ['crimson_nylium'],
                 'RAW_IRON': ['raw_iron_block']}
 
-sorted_colors = ['GRASS',
+sorted_colors = ['NONE','GRASS',
  'SAND',
  'WOOL',
  'FIRE',
@@ -576,6 +577,11 @@ sorted_colors = ['GRASS',
  'GLOW_LICHEN']
 
 colors = [
+    [
+        0,
+        0,
+        0
+    ],
     [
         127,
         178,
